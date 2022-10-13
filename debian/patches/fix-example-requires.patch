@@ -1,0 +1,18 @@
+Description: Patch example to find installed cli-table
+ The provided example assumes it will be run from within the source tree.
+ It was patched to find the installed cli-table instead. This was it can
+ be used as a manual test.
+Forwarded: not-needed
+Author: Ross Gammon <rossgammons@mail.dk>
+
+--- a/examples/revs.js
++++ b/examples/revs.js
+@@ -3,7 +3,7 @@
+  * Module requirements.
+  */
+ 
+-var Table = require('../lib');
++var Table = require('cli-table');
+ 
+ /**
+  * Example.

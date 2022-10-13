@@ -1,0 +1,62 @@
+node-cli-table (0.3.6-2) unstable; urgency=medium
+
+  * Team upload
+  * Back to unstable
+
+ -- Yadd <yadd@debian.org>  Sat, 06 Nov 2021 14:54:13 +0100
+
+node-cli-table (0.3.6-1) experimental; urgency=medium
+
+  * Team upload
+  * Fix GitHub tags regex
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+  * New upstream version 0.3.6
+  * Update test
+  * Update dependencies: only node-colors
+  * Add lintian overrides
+
+ -- Yadd <yadd@debian.org>  Fri, 05 Nov 2021 19:00:06 +0100
+
+node-cli-table (0.3.4-1) experimental; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs
+  * New upstream version 0.3.4
+  * Fix copyright
+  * Enable upstream test using jest & ts-node
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 09 Dec 2020 11:08:03 +0100
+
+node-cli-table (0.3.1-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Change priority extra to priority optional.
+  * Use secure URI in Vcs control header Vcs-Browser.
+  * Remove unnecessary XS-Testsuite field in debian/control.
+  * Update Vcs-* headers to use salsa repository.
+  * Remove obsolete field Name from debian/upstream/metadata (already
+    present in machine-readable debian/copyright).
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Use pkg-js-tools auto-install
+  * Change section to javascript
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 29 Apr 2020 09:30:26 +0200
+
+node-cli-table (0.3.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #780342)
+  * Patched example to find installed cli-table
+  * Add a manual test using installed example
+
+ -- Ross Gammon <rossgammon@mail.dk>  Tue, 17 Mar 2015 22:20:17 +0100

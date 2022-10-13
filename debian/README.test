@@ -1,0 +1,5 @@
+As a quick test of cli-table, use the installed example:
+$ cd /usr/share/doc/node-cli-table/examples
+$ nodejs revs.js
+
+You should see some example tables.

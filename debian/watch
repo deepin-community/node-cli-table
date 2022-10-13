@@ -1,0 +1,5 @@
+version=4
+opts=\
+dversionmangle=auto,\
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-cli-table-$1/ \
+ https://github.com/Automattic/cli-table/tags .*/archive/.*/v?([\d\.]+).tar.gz

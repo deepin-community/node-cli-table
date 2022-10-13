@@ -1,0 +1,2 @@
+# False positive
+very-long-line-length-in-source-file package.json line 1 is 522 characters long (>512)
