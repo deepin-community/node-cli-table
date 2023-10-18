@@ -1,1 +1,2 @@
-.pc/
+lib-cov
+node_modules

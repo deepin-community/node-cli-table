@@ -1,0 +1,34 @@
+Description: replace deprecated __proto__
+Author: Yadd <yadd@debian.org>
+Forwarded: no
+Last-Update: 2022-09-13
+
+--- a/cli-table2/src/table.js
++++ b/cli-table2/src/table.js
+@@ -7,7 +7,7 @@
+   this.options = utils.mergeOptions(options);
+ }
+ 
+-Table.prototype.__proto__ = Array.prototype;
++Object.setPrototypeOf(Table.prototype, Array.prototype);
+ 
+ Table.prototype.toString = function(){
+   var array = this;
+@@ -75,4 +75,4 @@
+   return str[0].length;
+ });
+ 
+-module.exports = Table;
+\ No newline at end of file
++module.exports = Table;
+--- a/lib/index.js
++++ b/lib/index.js
+@@ -59,7 +59,7 @@
+  * Inherit from Array.
+  */
+ 
+-Table.prototype.__proto__ = Array.prototype;
++Object.setPrototypeOf(Table.prototype, Array.prototype);
+ 
+ /**
+  * Width getter

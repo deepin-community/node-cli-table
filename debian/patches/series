@@ -1,2 +1,5 @@
 fix-example-requires.patch
 disable-one-test.patch
+disable-jest-eslint.patch
+disable-color-test.patch
+drop-__proto__.patch

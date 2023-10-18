@@ -1,0 +1,4 @@
+Test-Command: cd cli-table3 && sh -ex ../debian/nodejs/cli-table3/test
+Depends: @, @builddeps@
+Restrictions: allow-stderr
+Features: test-name=cli-table3

@@ -5,7 +5,7 @@ Last-Update: 2021-11-05
 
 --- a/test/index.test.js
 +++ b/test/index.test.js
-@@ -95,6 +95,7 @@
+@@ -127,6 +127,7 @@
      table.toString().should.eql(expected.join("\n"));
    },
  
@@ -13,7 +13,7 @@ Last-Update: 2021-11-05
    'test table colors': function(){
      var table = new Table({
        head: ['Rel', 'By'],
-@@ -122,6 +123,7 @@
+@@ -154,6 +155,7 @@
  
      table.toString().should.eql(expected.join("\n"));
    },

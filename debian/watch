@@ -2,4 +2,24 @@ version=4
 opts=\
 dversionmangle=auto,\
 filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-cli-table-$1/ \
- https://github.com/Automattic/cli-table/tags .*/archive/.*/v?([\d\.]+).tar.gz
+ https://github.com/Automattic/cli-table/tags .*/archive/.*/v?([\d\.]+).tar.gz group
+
+opts=\
+component=cli-table2,\
+ctype=nodejs,\
+dversionmangle=auto,\
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-cli-table2-$1/ \
+ https://github.com/jamestalmage/cli-table2/tags .*/archive.*/v?([\d\.]+).tar.gz checksum
+
+opts=\
+component=cli-table3,\
+ctype=nodejs,\
+dversionmangle=auto,\
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-cli-table3-$1/ \
+ https://github.com/cli-table/cli-table3/tags .*/archive.*/v?([\d\.]+).tar.gz checksum
+
+opts="searchmode=plain,component=types-cli-table,ctype=nodejs,pgpmode=none,filenamemangle=s/^.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-types-cli-table-$1/" \
+ https://registry.npmjs.org/@types/cli-table https://registry.npmjs.org/@types/cli-table/-/cli-table-([\d\.]+)@ARCHIVE_EXT@ checksum
+
+opts="searchmode=plain,component=types-cli-table2,ctype=nodejs,pgpmode=none,filenamemangle=s/^.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-types-cli-table2-$1/" \
+ https://registry.npmjs.org/@types/cli-table2 https://registry.npmjs.org/@types/cli-table2/-/cli-table2-([\d\.]+)@ARCHIVE_EXT@ checksum

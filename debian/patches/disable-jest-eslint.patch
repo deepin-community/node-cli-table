@@ -1,0 +1,25 @@
+Description: disable, missing dep
+Author: Yadd <yadd@debian.org>
+Forwarded: not-needed
+Last-Update: 2022-01-07
+
+--- a/cli-table3/package.json
++++ b/cli-table3/package.json
+@@ -77,17 +77,6 @@
+         "testMatch": [
+           "<rootDir>/test/*.js"
+         ]
+-      },
+-      {
+-        "runner": "jest-runner-eslint",
+-        "displayName": "lint",
+-        "testMatch": [
+-          "<rootDir>/examples/**/*.js",
+-          "<rootDir>/lib/**/*.js",
+-          "<rootDir>/scripts/**/*.js",
+-          "<rootDir>/src/**/*.js",
+-          "<rootDir>/test/**/*.js"
+-        ]
+       }
+     ]
+   },
