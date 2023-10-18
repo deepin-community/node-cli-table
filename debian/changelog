@@ -1,3 +1,39 @@
+node-cli-table (0.3.11+~cs0.13.4-3) unstable; urgency=medium
+
+  * Team upload
+  * Replace __proto__ call by Object.setPrototypeOf
+
+ -- Yadd <yadd@debian.org>  Tue, 13 Sep 2022 15:10:57 +0200
+
+node-cli-table (0.3.11+~cs0.13.4-2) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.1, no changes needed.
+  * Enable __proto__ in test, needed here for pkg-js-autopkgtest 0.15
+
+ -- Yadd <yadd@debian.org>  Mon, 12 Sep 2022 12:06:44 +0200
+
+node-cli-table (0.3.11+~cs0.13.4-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 0.3.11+~cs0.13.4:
+    updates cli-table3 from 0.6.0 to 0.6.1
+  * Refresh patches
+  * Drop dependency to node-object-assign
+
+ -- Yadd <yadd@debian.org>  Mon, 04 Apr 2022 12:12:11 +0200
+
+node-cli-table (0.3.11+~cs0.13.3-1) unstable; urgency=medium
+
+  * Team upload
+  * Add missing build dependency on dh addon.
+  * Embed cli-table2 cli-table3 and typescript declarations
+  * New upstream version 0.3.11+~cs0.13.3
+  * Update test
+  * Update copyright
+
+ -- Yadd <yadd@debian.org>  Fri, 07 Jan 2022 08:13:32 +0100
+
 node-cli-table (0.3.6-2) unstable; urgency=medium
 
   * Team upload

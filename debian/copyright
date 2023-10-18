@@ -2,15 +2,28 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: cli-table
 Upstream-Contact: https://github.com/Automattic/cli-table/issues
 Source: https://github.com/Automattic/cli-table
+ https://registry.npmjs.org/@types/cli-table
+ https://github.com/jamestalmage/cli-table2/tags
+ https://registry.npmjs.org/@types/cli-table2
+ https://github.com/cli-table/cli-table3/tags
 
 Files: *
 Copyright: 2010 LearnBoost <dev@learnboost.com>
  2018 Automattic
 License: Expat
 
+Files: cli-table2/*
+ cli-table3/*
+Copyright: 2014 James Talmage <james.talmage@jrtechnical.com>
+License: Expat
+
 Files: debian/*
-Copyright: 2015, Ross Gammon <rossgammon@mail.dk>
- 2020 Yadd <yadd@debian.org>
+Copyright: 2015 Ross Gammon <rossgammon@mail.dk>
+ 2020-2022 Yadd <yadd@debian.org>
+License: Expat
+
+Files: types-*/*
+Copyright: Microsoft Corporation
 License: Expat
 
 License: Expat

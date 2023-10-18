@@ -1,2 +1,4 @@
 # False positive
-very-long-line-length-in-source-file package.json line 1 is 522 characters long (>512)
+very-long-line-length-in-source-file *package.json*
+# Generic types-* path
+add-component-copyright types-*

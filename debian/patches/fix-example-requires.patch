@@ -13,6 +13,6 @@ Author: Ross Gammon <rossgammons@mail.dk>
  
 -var Table = require('../lib');
 +var Table = require('cli-table');
+ var hyperlinker = require('hyperlinker');
  
  /**
-  * Example.
